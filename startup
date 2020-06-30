@@ -1,0 +1,12 @@
+#!/bin/bash
+
+###BEGININITINFO
+#Provides:startup
+#Required-Start:$all
+#Required-Stop:
+#Default-Start:2 3 4 5
+#Default-Stop:
+#Short-Description:startup
+###ENDINITINFO
+
+sudo sh /home/Justin/auto-config/auto-minion.sh
